@@ -20,8 +20,9 @@ if [ ! -f "$SRC_FILE" ]; then
 fi
 
 # Get filename and extension
+# removes from start , % removes from end
 FILENAME=$(basename -- "$SRC_FILE")
-EXTENSION="${FILENAME##*.}"    # extracting extension of file from last dot
+EXTENSION="${FILENAME##*.}"    # extracting extension of file from last dot 
 NAME="${FILENAME%.*}"
 
 # Set Desktop path 
