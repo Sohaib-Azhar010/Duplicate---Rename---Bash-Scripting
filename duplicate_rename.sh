@@ -1,4 +1,16 @@
 #!/bin/bash
+
+# Assignment 2: Duplicate & Rename
+# Write a bash script that:
+# Takes a file path as an argument (e.g., ./myscript.sh myfile.txt).
+# Copies the file into the Desktop.
+# Creates two duplicates of the file on the Desktop, renaming them as:
+# myfile_copy1.txt
+# myfile_copy2.txt
+# Deletes the original file from the source folder.
+# : Handle cases where the file doesn’t exist.
+
+
 # filepath: duplicate_rename.sh  ./myfile.txt (It is the first argument)
 
 # Check if argument is given
